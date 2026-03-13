@@ -1,0 +1,10 @@
+
+
+public class SingleNumber {
+    int [] nums = {2,2,1,4};
+    int result = 0;
+    for(int num : nums){
+        result ^= num;
+    }
+    return result;
+}
